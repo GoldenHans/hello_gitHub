@@ -1,0 +1,20 @@
+robots.txt 是用于告诉其他搜索引擎,那些内容可以被爬虫,那些不可以
+
+humans.txt 是用于阐述开发团队与开发人员,感谢以及网站信息
+
+favicon.ico 是用于网址左侧的小图片,当收藏这个网站的时候,收藏夹中显示的图片也是这个
+
+.editorconfig 是用于统一编辑器的规范(其中内容大小写不敏感) 如果项目中有editorconfig就会应用, 如果没有就应用编辑器的
+(#或者;用于注释,root=true 代表当前editorconfig是最顶层的文件,告诉编译器不需要再去寻找底层文件夹,
+ [*] 代表通配到所有文件, [*.js]代表通配到所有的js文件, 那么下方的代码, 即是实际要对这些文件形成规范的代码,
+ indent_size=4, 代表用四个空格来进行缩进, indent_size=tab, 代表使用tab来缩进
+ insert_final_newline = true 代表以空白行来结尾
+ trim_trailing_whitespace = true 代表去掉空白行上的空格
+ )
+
+.gitignore 是用于告诉git,哪些文件不需要被提交 (在.gitignore上右键,选择添加模板,可以自动根据其中的提示,来生成对应项目的.gitignore)
+
+(markdown文件)
+README.md 是用于阐述 项目简介,使用方式,相关链接
+CHANGELOG.md 是用于阐述 更新说明, 版本号, 更新了哪些内容等
+
